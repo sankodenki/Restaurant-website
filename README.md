@@ -1,7 +1,7 @@
-# イタリアンレストランWebサイト
+# Restaurant-website
 
 ## 概要
-HTML / CSS を用いて制作したフォトギャラリーサイトです。
+HTML / CSS を用いて制作したイタリアンレストランのWebサイトです。
 
 ## 使用技術
 - HTML
