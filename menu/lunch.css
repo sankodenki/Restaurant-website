@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+/* common */
+html {
+  font-size: 100%;
+}
+
+
+body {
+  font-family: "Hiragino Kaku Gothic proN", "メイリオ", sans-serif;
+  color: #555;
+  background-color:blanchedalmond;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/* main */
+main {
+  flex: 1;
+}
+
+h1 {
+  text-align: center;
+  margin: 40px 0;
+  font-size: 2rem;
+}
+.menu {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.menu-title {
+  display: flex;
+  justify-content: center;
+  border-bottom: solid 1px;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.menu-price{
+  margin-left: 24px;
+}
+
+.menu {
+  line-height: 2.5;
+}
+.menu ol {
+  padding: 0;
+}
+.menu ol li{
+  list-style-type: none;
+}
+
+.menu ul {
+  margin-left: 30px;
+  padding-left: 10px;
+}
+
+.menu ul li{
+  list-style-type: square;
+  font-size: 0.9rem;
+}
+
+#menu-B {
+  margin-top: 50px;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  color: #fff;
+  background-color: #7a5a3a;
+  margin-top: 100px;
+}
+footer ul li {
+  display: inline-block;
+  margin: 5px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer ul li a:hover,
+footer ul li a:active {
+  opacity: .7;
+}
+
+footer small {
+  display: block;
+  line-height: 1.5;
+}
+
+@media(max-width:600px) {
+html{
+  font-size: 87.5%;
+}
+
+header nav ul {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+}
