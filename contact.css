@@ -89,7 +89,8 @@ main {
   padding: 5px;
 }
 
-#form-contents dt:last-of-type {
+#form-contents dt:last-of-type, 
+#form-contents dd:last-of-type {
   text-align: center;
 }
 
