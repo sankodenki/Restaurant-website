@@ -1,136 +1,132 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>YUKI KATO PORTFOLIO</title>
-  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <title>Trattoria Luce</title>
+  <link rel="stylesheet" href="html5reset-1.6.1.css">
   <link rel="stylesheet" href="style.css">
 </head>
+
+<!-- header begin -->
 <body>
-  <!-- header begin -->
-   <header class="hero">
-    <img src="image/desk.jpg" alt="main image">
-    <div class="hero_text">
-      <h1>YUKI KATO</h1>
-      <h2>PORTFOLIO</h2>
+  <header id="top">
+    <div class="header_content wrapper">
+      <h1><img class="header_logo" src="images/restaurant_logo.png" alt="Trattoria Luce"></h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#news">NEWS</a></li>
+          <li><a href="#access">ACCESS</a></li>
+          <li><a href="#reserve">RESERVATION</a></li>
+        </ul>
+      </nav>
     </div>
-    <nav class="main-nav">
-      <ul>
-        <li><a href="index.html">TOP</a></li>
-        <li><a href="#ABOUT">ABOUT</a></li>
-        <li><a href="#WORKS">WORKS</a></li>
-      </ul>
-    </nav>
-   </header>
-  <!-- header end -->
+    <div class="hero">
+      <div id="hero_image">
+      </div>
+      <div class="hero_text">
+        <p>日常に、やさしいイタリアンを。</p>
+        <p>ランチにも、ディナーにも。気軽に立ち寄れる Trattoria Luce。</p>
+      </div>
+    </div>
+  </header>
+<!-- header end -->
+
+<!-- contents begin -->
+<div class="contents wrapper">
   <!-- main begin -->
-  <main class="main_content wrapper">
-    <section id="MENU">
-      <div id="ABOUT">
-        <h2>ABOUT</h2>
-        <p>わたしについて</p>
-        <div class="introduction">
-          <p>三幸電機入社9年目の加藤夕貴です。</p>
-          <p>
-          将来的に新事業のWebアプリ開発業務に携わることを見据え、
-          独学でWeb制作の学習に取り組んできました。
-          </p>
-          <p>HTML / CSSを中心に、JavaScriptやPHPにも触れながら学習し、
-          自作のWebサイトやフォトギャラリー、Webアプリを制作しました。
-          デザインや使いやすさを意識しながら制作するようにしています。
-          </p>
-        </div>
-      </div>
-      <div id="WORKS">
-        <h2>WORKS</h2>
-        <p>製作物</p>
-        <ul>
-          <li><a href="#website">website</a></li>
-          <li><a href="#photogallery">photogallery</a></li>
-          <li><a href="#application">application</a></li>
-        </ul>
-      </div>
-    </section>
-    <section id="WORKS_list">
-      <div id="website">
-        <h3>website</h3>
-        <ul>
-          <li>
-            <a href="works/works1.html">
-              <img src="image/CSSCafe.jpg" alt="CSSCafe">
-            </a>
-            <h4>カフェのWebサイト / Udemy課題</h4>
-            <p>HTML / CSS</p>
-          </li>
-          <li>
-            <a href="works/works2.html">
-              <img src="image/ECsite.jpg" alt="ECsite">
-            </a>
-            <h4>ECサイト / Udemy課題</h4>
-            <p>HTML / CSS</p>
-          </li>
-          <li>
-            <a href="works/works3.html">
-              <img src="image/Trattoria Luce.jpg" alt="Trattoria Luce">
-            </a>
-            <h4>レストランのWebサイト</h4>
-            <p>HTML / CSS</p>
-          </li>
-          <li>
-            <a href="works/works4.html">
-              <img src="image/Portfolio.jpg" alt="Portfolio">
-            </a>
-            <h4>ポートフォリオサイト</h4>
-            <p>HTML / CSS</p>
-          </li>
-        </ul>
-      </div>
-      <div id="photogallery">
-        <h3>photogallery</h3>
-        <ul>
-          <li>
-            <a href="works/works5.html">
-              <img src="image/cat_photgallery.jpg" alt="cat_photogallery">
-            </a>
-            <h4>猫のフォトギャラリー / Udemy課題</h4>
-            <p>HTML / CSS</p>
-          </li>
-          <li>
-            <a href="works/works6.html">
-              <img src="image/dog_photgallery.jpg" alt="dog_photogallery">
-            </a>
-            <h4>犬のフォトギャラリー</h4>
-            <p>HTML / CSS</p>
-          </li>
-        </ul>
-      </div>
-      <div id="application">
-        <h3>application</h3>
-        <ul>
-          <li>
-            <a href="works/works7.html">
-              <img src="image/weather_app.jpg" alt="wheather_app">
-            </a>
-            <h4>天気予報アプリ / Udemy課題</h4>
-            <p>HTML / CSS / JavaScript</p>
-          </li>
-          <li>
-            <a href="works/works8.html">
-              <img src="image/quizapp.jpg" alt="quiz_app">
-            </a>
-            <h4>クイズアプリ / Udemy課題</h4>
-            <p>HTML / CSS / JavaScript / PHP</p>
-          </li>
-        </ul>
-      </div>
-    </section>
+  <main id="main_content">
+  <section id="menu">
+  <h2>MENU</h2>
+  <ul>
+    <li>
+      <a href="./menu/lunch.html"><img src="images/menu/lunch.png" alt="Lunch"></a>
+    </li>
+    <li>
+      <a href="./menu/dinner.html"><img src="images/menu/dinner.png" alt="Dinner"></a>
+    </li>
+    <li>
+      <a href="#"><img src="images/menu/drink.png" alt="Drink"></a>
+    </li>
+  </ul>
+  </section>
+  <section id="reserve">
+    <a href="#">ご予約はこちらから</a>
+  </section>
   </main>
-  <!-- main end -->
-  <!-- footer begin -->
-   <footer>
-    <p><small>&copy; Yuki Kato 2026</small></p>
-   </footer>
-  <!-- footer end -->
+  <!-- main contents end -->
+  <!-- sub contents begin -->
+  <div id="sub_content">
+    <section id="news">
+      <h2>NEWS</h2>
+      <dl>
+        <dt>2026.04.17</dt>
+        <dd>4/27（月）は臨時休業となります</dd>
+        <dt>2026.04.01</dt>
+        <dd>季節限定メニューを公開しました</dd>
+        <dt>2026.03.20</dt>
+        <dd>営業時間の一部変更について</dd>
+        <dt>2026.02.01</dt>
+        <dd>バレンタイン限定スペシャルドルチェ</dd>
+        <dt>2025.12.15</dt>
+        <dd>年末年始の営業について</dd>
+        <dt>2025.12.01</dt>
+        <dd>クリスマス限定コースを公開しました</dd>
+      </dl>
+    </section>
+
+    <section id="service">
+      <ul>
+        <li>
+          <a href="#">
+          <img src="images/service/anniversary.png" alt="Anniversary">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="images/service/takeout.png" alt="Takeout">
+          </a>
+        </li>
+      </ul>
+    </section>
+  </div>
+<!-- sub contents end -->
+
+  <aside class="info">
+    <div id="hour">
+      <h2>営業時間</h2>
+      <dl>
+      <dt>Lunch</dt>
+      <dd>11:00～15:00(14:30L.O.)</dd>
+      <dt>Dinner</dt>
+      <dd>17:00～22:00(21:30L.O.)</dd>
+      <dt>定休日</dt>
+      <dd>月曜</dd>
+      </dl>
+    </div>
+    <div id="access">
+    <h2>ACCESS</h2>
+    <p>愛知県名古屋市中区大須4丁目1-18 セイジョウビル8F</p>
+    <p>地下鉄名城線 矢場町駅 4番出口より徒歩5分</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1939.4775357886895!2d136.90596589252965!3d35.1616229393062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600371342be3124b%3A0x82bd70a51c280700!2z44K744Kk44K444On44Km44OT44Or!5e0!3m2!1sja!2sjp!4v1776733099620!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </aside>
+<!-- aside end -->
+</div>
+<!-- contents end -->
+<!-- footer begin -->
+<footer>
+  <ul>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="#access">ACCESS</a></li>
+    <li><a href="#">会社概要</a></li>
+    <li><a href="contact.html">お問い合わせ</a></li>
+  </ul>
+
+  <small>&copy; 2026 Trattoria Luce</small>
+</footer>
+<!-- footer end -->
+
 </body>
 </html>
