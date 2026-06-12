@@ -93,7 +93,7 @@ main {
   text-align: center;
 }
 
-#form-contents dd:last-of-type {
+.privacy {
   display: flex;
   justify-content: center;
 }
