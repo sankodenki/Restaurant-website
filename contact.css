@@ -93,13 +93,8 @@ main {
   text-align: center;
 }
 
-.privacy {
-  display: flex;
-  justify-content: center;
-}
-
 .privacy label {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 8px;
   white-space: nowrap;
