@@ -93,6 +93,10 @@ main {
   text-align: center;
 }
 
+.privacy {
+  display: flex;
+}
+
 .privacy label {
   display: inline-flex;
   align-items: center;
